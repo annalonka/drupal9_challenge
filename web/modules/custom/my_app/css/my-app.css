@@ -1,0 +1,105 @@
+.filters {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.checkbox-container {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container input {
+  margin-right: 0.5rem;
+}
+
+.checkbox-container label {
+  white-space: nowrap;
+}
+
+.hotel-row {
+  display: flex;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
+.image {
+  min-width: 16rem;
+  height: 16rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+  background-size: cover;
+  background-position: top;
+  transition: all 0.35s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    height: 12rem;
+    min-width: 12rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hotel-row {
+    flex-direction: column;
+  }
+
+  .image {
+    height: 20rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details .flex-col:first-of-type span:first-of-type {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price {
+  color: #84ce84;
+  font-size: 20px;
+  text-align: right;
+}
+
+.btn {
+  transition: all 0.35s ease-in-out;
+  padding: 0.5rem 1rem;
+  border: 2px solid #84ce84;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  transform: scale(0.97);
+  background-color: #84ce84;
+  color: white;
+}

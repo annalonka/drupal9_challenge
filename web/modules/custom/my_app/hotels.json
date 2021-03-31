@@ -45,10 +45,10 @@
   },
   {
     "id": "4",
-    "countryCode": "FI",
+    "country": "Finland",
     "city": "Tampere",
     "name": "Sokos Vaakuna Tampere",
-    "price": 99,
+    "price": "99",
     "currency": "euro",
     "isAvailable": false,
     "hasSwimmingPool": true,

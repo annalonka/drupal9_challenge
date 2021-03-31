@@ -7,7 +7,6 @@ my_app:
       css/my-app.css: {}
   dependencies:
     - core/drupalSettings
-    - my_app/jquery-labelauty
     - my_app/vuejs
 
 # Third-party library (CDN).
